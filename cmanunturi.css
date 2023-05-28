@@ -1,0 +1,72 @@
+body{
+    background-color: #020024;
+}
+
+
+.divForm{
+    text-align: center;
+    height:100%;
+    width: 100%;
+    
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.welcome{
+    margin: 1.5rem 0 1.2rem 0;
+    font-size: 2em;
+}
+
+h1{
+    font-size: 35px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+
+.autentificare{
+   
+    font-size: 1.8em;
+    border: none;
+    width: 90%;
+    border-radius: 30px;
+    height: 62px;
+    color: white;
+    background-color: #082B2B;
+}
+
+
+.centerLogin{
+    margin-top: 20px;
+}
+
+button{
+    font-size: 1.2em;
+}
+
+.imgAu{
+    margin: 0;
+    height: 150px;
+    width: 180px;
+}
+
+.centerImgAu{
+    display: flex;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.inapoi{
+    background-color: brown;
+}
+/* de vazut daca deconectare ramane rosu */

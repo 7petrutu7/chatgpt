@@ -1,0 +1,7 @@
+Array
+(
+    [titlu] => dsadsadsadsa
+    [descriere] => dsadsadsadsadsadsadsadsadasdasdsadasdsadsadasdsadsad
+    [pret] => 
+    [NumarTelefon] => 
+)

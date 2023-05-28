@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}
+
+.header p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.anunt {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 80%;
+    margin: 1.5rem auto;
+}
+
+.imgContainer {
+    width: 100%;
+    max-height: 300px;
+}
+
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.details {
+    width: 100%;
+    padding: 1rem;
+}
+
+.details h2 {
+    margin: 0;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.details p {
+    margin: 0.5rem 0;
+    color: gray;
+}
+
+@media only screen and (min-width: 600px) {
+    .anunt {
+        flex-wrap: nowrap;
+    }
+
+    .imgContainer, .details {
+        width: 50%;
+    }
+}
+
+#confirmDialog {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    min-width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 150px rgba(0,0,0,0.5);
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#confirmDialog p {
+    color: #000000;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#confirmDialog div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#confirmDialog button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#confirmDialog button:hover {
+    opacity: 0.8;
+}
+
+#noAnunturi {
+    display: none; /* Ascunde elementul când pagina se încarcă */
+    text-align: center; /* Centrează textul orizontal */
+    font-size: 24px; /* Mărește dimensiunea fontului */
+    color: #007BFF; /* Schimbă culoarea textului */
+    background-color: #f8f9fa; /* Adaugă o culoare de fundal deschisă */
+    padding: 20px; /* Adaugă un spațiu în jurul textului */
+    border: 1px solid #007BFF; /* Adaugă o bordură subțire */
+    border-radius: 15px; /* Rotunjește colțurile bordurii */
+    position: absolute; /* Poziționează elementul în mod absolut în cadrul părinte */
+    top: 50%; /* Poziționează-l la jumătatea înălțimii ecranului */
+    left: 50%; /* Poziționează-l la jumătatea lățimii ecranului */
+    transform: translate(-50%, -50%); /* Acest lucru asigură că elementul este centrul în centrul ecranului, nu doar colțul lui stânga-sus */
+    width: 80%; /* Lățimea este 80% din lățimea ecranului */
+    max-width: 500px; /* Dar nu mai mult de 500px */
+}
+

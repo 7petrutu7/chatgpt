@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="stylesheet" href="anunturi_asteptare.css">
+    <title>Anunțuri în așteptare</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <section>
+        <main>
+            <div class="header">
+                <a href="index.html">
+                    <img class="logo" src="assets/logo/logo.webp">
+                </a>
+                <h1>Anunțuri Active</h1>
+                <p id="nrAnunturi"></p>
+            </div>
+            <div id="anunturiContainer">
+                <!-- Anunțurile vor fi generate dinamic aici de către JavaScript -->
+            </div>
+            <div id="noAnunturi" style="display: none;">
+                <p>Încă nu ai niciun anunț activ.</p>
+            </div>
+        </main>
+    </section>
+    <!-- Confirm Dialog -->
+    <div id="confirmDialog" style="display: none;">
+        <p>Ești sigur că vrei să dezactivezi anunțul?</p>
+        <button id="confirmYes">Da</button>
+        <button id="confirmNo">Nu</button>
+    </div>
+    <script src="anunturi_active.js" defer></script>
+    <script src="dezactivareAnunt.js" defer></script>
+</body>
+</html>

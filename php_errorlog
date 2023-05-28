@@ -1,0 +1,295 @@
+[25-Mar-2023 22:39:16 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:17 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:17 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:20 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:21 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:21 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:29 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[25-Mar-2023 22:39:29 UTC] PHP Parse error:  syntax error, unexpected 'json_encode' (T_STRING) in /home/customer/www/emaisimplu.com/public_html/login.php on line 16
+[26-Mar-2023 12:27:11 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/customer/www/emaisimplu.com/public_html/send_activation_code.php on line 4
+[26-Mar-2023 12:28:14 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/customer/www/emaisimplu.com/public_html/send_activation_code.php on line 4
+[26-Mar-2023 13:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_activation_code() in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php on line 30
+[26-Mar-2023 15:27:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_password_reset() in /home/customer/www/emaisimplu.com/public_html/reset_password.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/reset_password.php on line 20
+[26-Mar-2023 15:48:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/reset_password_form.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/reset_password_form.php on line 16
+[26-Mar-2023 15:51:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/reset_password_form.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/reset_password_form.php on line 16
+[26-Mar-2023 17:10:40 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function EmailReset\send_password_reset(), 2 passed in /home/customer/www/emaisimplu.com/public_html/reset_password.php on line 20 and exactly 3 expected in /home/customer/www/emaisimplu.com/public_html/send_password_reset.php:10
+Stack trace:
+#0 /home/customer/www/emaisimplu.com/public_html/reset_password.php(20): EmailReset\send_password_reset('7petrutu7@gmail...', 'kdkd')
+#1 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/send_password_reset.php on line 10
+[26-Mar-2023 17:11:31 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function EmailReset\send_password_reset(), 2 passed in /home/customer/www/emaisimplu.com/public_html/reset_password.php on line 20 and exactly 3 expected in /home/customer/www/emaisimplu.com/public_html/send_password_reset.php:10
+Stack trace:
+#0 /home/customer/www/emaisimplu.com/public_html/reset_password.php(20): EmailReset\send_password_reset('7petrutu7@gmail...', 'kdkd')
+#1 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/send_password_reset.php on line 10
+[26-Mar-2023 18:27:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function EmailActivation\send_activation_code() in /home/customer/www/emaisimplu.com/public_html/register.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/register.php on line 60
+[26-Mar-2023 18:28:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function EmailActivation\send_activation_code() in /home/customer/www/emaisimplu.com/public_html/register.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/register.php on line 60
+[26-Mar-2023 18:31:01 UTC] PHP Fatal error:  Uncaught Error: Class 'EmailActivation\PHPMailer' not found in /home/customer/www/emaisimplu.com/public_html/send_activation_code.php:13
+Stack trace:
+#0 /home/customer/www/emaisimplu.com/public_html/register.php(60): EmailActivation\send_activation_code('7petrutju7@gmai...', 'djnd', 405823)
+#1 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/send_activation_code.php on line 13
+[26-Mar-2023 20:50:42 UTC] PHP Parse error:  syntax error, unexpected ''<br> <a href="https://www.ema' (T_CONSTANT_ENCAPSED_STRING) in /home/customer/www/emaisimplu.com/public_html/register.php on line 47
+[26-Mar-2023 20:52:49 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/customer/www/emaisimplu.com/public_html/register.php on line 46
+[26-Mar-2023 21:56:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_activation_code() in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php on line 43
+[26-Mar-2023 22:31:04 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 76
+[26-Mar-2023 22:33:17 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 105
+[26-Mar-2023 22:35:33 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 102
+[26-Mar-2023 22:38:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 102
+[26-Mar-2023 22:39:04 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 102
+[27-Mar-2023 00:11:18 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 101
+[27-Mar-2023 00:21:03 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator.php on line 37
+[27-Mar-2023 00:49:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function send_activation_code() in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/cont_neactivat.php on line 43
+[27-Mar-2023 16:38:45 UTC] Mesajul nu a putut fi trimis. Eroare: Invalid address:  (to): ll@g
+[27-Mar-2023 18:47:09 UTC] Mesajul nu a putut fi trimis. Eroare: Invalid address:  (to): dasda@d
+[27-Mar-2023 19:10:38 UTC] Mesajul nu a putut fi trimis. Eroare: Invalid address:  (to): 
+[16-Apr-2023 17:04:15 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[16-Apr-2023 17:04:23 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[16-Apr-2023 17:04:45 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[16-Apr-2023 17:06:21 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[16-Apr-2023 17:06:49 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[16-Apr-2023 17:46:51 UTC] PHP Parse error:  syntax error, unexpected '$suprafata_utila' (T_VARIABLE), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 137
+[17-Apr-2023 10:58:33 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[17-Apr-2023 11:00:31 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[17-Apr-2023 11:00:32 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[17-Apr-2023 11:01:01 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[17-Apr-2023 11:43:36 UTC] PHP Parse error:  syntax error, unexpected '"da"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[17-Apr-2023 16:27:40 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/customer/www/emaisimplu.com/public_html/upload_images.php on line 13
+[17-Apr-2023 21:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 38
+[07-May-2023 17:15:21 UTC] PHP Notice:  Undefined index: moneda in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 10
+[07-May-2023 17:15:21 UTC] PHP Notice:  Undefined index: vanzator in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 11
+[07-May-2023 17:15:21 UTC] PHP Notice:  Undefined index: stare in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 12
+[07-May-2023 17:15:21 UTC] PHP Notice:  Undefined index: locatie in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[07-May-2023 17:15:21 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[07-May-2023 17:15:54 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[07-May-2023 17:16:11 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[07-May-2023 17:16:29 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[07-May-2023 17:19:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 124
+[07-May-2023 17:19:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 124
+[07-May-2023 17:21:10 UTC] PHP Notice:  Undefined index: vanzator in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 11
+[07-May-2023 17:21:10 UTC] PHP Notice:  Undefined index: stare in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 12
+[07-May-2023 17:21:10 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[07-May-2023 17:22:46 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[07-May-2023 17:23:02 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[07-May-2023 17:46:02 UTC] PHP Notice:  Undefined index: stare in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 12
+[07-May-2023 17:46:02 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[14-May-2023 15:34:20 UTC] PHP Notice:  Undefined index: moneda in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 10
+[14-May-2023 15:34:20 UTC] PHP Notice:  Undefined index: vanzator in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 11
+[14-May-2023 15:34:20 UTC] PHP Notice:  Undefined index: stare in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 12
+[14-May-2023 15:34:20 UTC] PHP Notice:  Undefined index: locatie in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 13
+[14-May-2023 15:34:20 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[14-May-2023 15:34:39 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[14-May-2023 15:36:41 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 29
+[14-May-2023 16:37:32 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:36 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:37 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:37 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:42 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:43 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:43 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:43 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:43 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:44 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:44 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:44 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:37:45 UTC] PHP Notice:  Undefined index: numarTelefon in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 15
+[14-May-2023 16:39:05 UTC] PHP Notice:  Undefined index: oras in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 14
+[14-May-2023 16:39:09 UTC] PHP Notice:  Undefined variable: target_file in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 30
+[20-May-2023 21:51:30 UTC] PHP Notice:  Undefined index: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:51:30 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 15
+[20-May-2023 21:53:46 UTC] PHP Notice:  Undefined index: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:54:51 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:54:53 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:54:54 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:54:57 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:55:36 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:59:23 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 21:59:53 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 9
+[20-May-2023 22:04:11 UTC] PHP Notice:  Undefined variable: user_id in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 17
+[20-May-2023 22:06:37 UTC] PHP Notice:  Undefined variable: user in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 8
+[20-May-2023 22:06:37 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 8
+[20-May-2023 22:07:20 UTC] PHP Warning:  Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 8
+[20-May-2023 22:07:20 UTC] PHP Notice:  Undefined variable: user in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 8
+[20-May-2023 22:07:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 8
+[20-May-2023 22:08:06 UTC] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 15
+[20-May-2023 22:08:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 10
+[20-May-2023 22:10:11 UTC] PHP Notice:  Undefined variable: sql in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 11
+[20-May-2023 22:10:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/get_announcements.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/get_announcements.php on line 12
+[21-May-2023 13:38:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:38:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:38:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:38:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:38:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:38:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:40:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 13:40:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/salveaza_anunt.php on line 5
+[21-May-2023 14:29:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/customer/www/emaisimplu.com/public_html/actualizare_status_anunturi.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/actualizare_status_anunturi.php on line 10
+[23-May-2023 18:11:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bindParam() on bool in /home/customer/www/emaisimplu.com/public_html/approve_announcement.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/approve_announcement.php on line 13
+[23-May-2023 18:37:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:39:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:41:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:43:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[23-May-2023 18:43:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/customer/www/emaisimplu.com/public_html/check_user_role.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/check_user_role.php on line 10
+[25-May-2023 19:43:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 31
+[25-May-2023 19:44:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 31
+[25-May-2023 19:51:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 31
+[25-May-2023 19:51:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:31
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 31
+[25-May-2023 19:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 30
+[25-May-2023 19:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 19:55:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 19:55:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 19:55:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 19:58:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 20:02:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[25-May-2023 20:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/modereaza-anunt.php on line 33
+[27-May-2023 09:30:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator_pentru_anunt.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/emaisimplu.com/public_html/blocheaza_utilizator_pentru_anunt.php on line 22

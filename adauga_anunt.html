@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaugă Anunț</title>
+    <link rel="stylesheet" href="adauga_anunt.css">
+    <script src="stocare_categorii.js" defer></script>
+    <script src="functionalitate_categorii.js" defer></script>
+    <script src="titlu.js" defer></script>
+    <script src="descriere.js" defer></script>
+    <script src="pret.js" defer></script>
+    <script src="moneda.js" defer></script>
+    <script src="vanzator.js" defer></script>
+    <script src="stare.js" defer></script>
+    <script src="locatie.js" defer></script>
+    <script src="oras.js" defer></script>
+    <script src="numarTelefon.js" defer></script>
+    <script src="validation_inputuri.js" defer></script>
+    <script src="inputFileHandler.js" defer></script>
+    <script src="imageUpload.js" defer></script>
+    <script src="inputuri_categorii.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <style>.error-msg {color: red;}</style>
+</head>
+<body>
+    <h1>Selecteaza o categorie</h1>
+    <form id="formular-anunt" method="POST" enctype="multipart/form-data">
+
+        <div class="container">
+            <button id="inapoi" type="button" onclick="navigheazaInapoi(event)">Înapoi</button>
+            <div id="categorii"></div>
+            <div class="image-upload-container">
+                <div id="input-container"></div>
+            </div>
+        </div>
+        <script>
+          function navigheazaInapoi(event) {
+            event.preventDefault(); // Adăugați această linie pentru a preveni trimiterea formularului
+            if (caleCurenta.length > 1) {
+              caleCurenta.pop();
+              afiseazaCategorii(caleCurenta[caleCurenta.length - 1].subcategorii);
+            } else {
+              caleCurenta = [];
+              afiseazaCategorii(categoriiPrincipale);
+              butonInapoi.style.display = "none";
+            }
+          }
+
+        </script>
+    </form>
+    
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>Inregistrare</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Inregistrare</h1>
+        <form action="register.php" method="post" novalidate>
+            <label for="nume">Nume</label>
+            <input type="text" id="nume" name="nume" >
+            <div class="error-message" id="nume-message"></div>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" >
+            <div class="error-message" id="email-message"></div>
+            <span id="email-custom-message" style="color:red; display:none;"></span>
+            
+        <div class="password-wrapper">
+            <label for="parola">Parola</label>
+            <input type="password" id="parola" name="parola" >
+            <img src="assets/ochi-parola/ochi.png" id="toggle-password" class="toggle-password">
+            <div class="error-message" id="parola-message"></div>
+        </div>
+
+        <div class="password-wrapper">
+            <label for="confirma_parola">Confirma parola</label>
+            <input type="password" id="confirma_parola" name="confirma_parola" >
+            <img src="assets/ochi-parola/ochi.png" id="toggle-confirm-password" class="toggle-password">
+            <div class="error-message" id="confirma_parola-message"></div>
+        </div>
+
+            <label for="termeni" class="terms">
+                <input type="checkbox" id="termeni" name="termeni" >
+                Sunt de acord cu <a href="#">termenii si conditiile</a> si <a href="#">politica de confidentialitate</a>.
+            </label>
+            <div class="error-message" id="termeni-message"></div>
+
+            <!-- recaptcha start -->
+            <div class="g-recaptcha" data-sitekey="6LdjqCMlAAAAABopKBRjZdUxcVFEvUEdT_p4-BaA"></div>
+            <!-- recaptcha end -->
+
+            <button type="submit">Inregistreaza-te</button>
+        </form>
+
+    <!-- aici am adaugat eu -->
+
+    <br>
+    <a href="login.html">Ai deja un cont? Autentificate</a>
+
+    </div>
+    <!-- aici am adaugat eu -->
+
+
+    <script src="validation.js"></script>
+    <script src="check_email.js"></script>
+    <script src="page_reset.js"></script>
+    <script src="recaptcha.js"></script>
+    <script src="afisare_parola.js"></script>
+</body>
+</html>

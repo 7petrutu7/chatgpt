@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logare</title>
+    <link rel="stylesheet" href="styles_login.css">
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Logare</h1>
+        <form action="login.php" method="POST" id="login-form" novalidate>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <span class="error-message" id="email-error-message-empty"></span>
+            <span class="error-message" id="email-error-message-invalid"></span>
+            <label for="parola">Parola:</label>
+            <div class="password-wrapper">
+                <input type="password" id="parola" name="parola">
+                <img src="assets/ochi-parola/ochi.png" id="toggle-password" class="toggle-password">
+                <span class="error-message" id="password-error-message"></span>
+                <span class="error-message" id="parola-error-message-empty"></span>
+            </div>
+            <span class="error-message" id="parola-error-message-empty"></span> <!-- Adăugat aici -->
+            <div id="recaptcha-container"></div>
+            <input type="submit" value="Logare">
+        </form>
+
+        <br>
+        <a href="inregistrare.html">Nu ai cont? Inregistreaza-te</a>
+        <br><br>
+        <a href="index.html">Catre pagina principala</a>
+        <br><br>
+        <p><a href="reset_password.php">Ai uitat parola?</a></p>
+        
+    </div>
+    <script src="afisare_parola_login.js"></script>
+    <script src="recaptcha_handler.js"></script>
+    <script src="login_validation.js"></script>
+    <script src="password_validation.js"></script>
+
+
+</body>
+</html>
